@@ -1,0 +1,11 @@
+What is the difference between the top (coarsest) level of Gaussian and Laplacian pyramids?
+
+>There is no difference between coarsest level of Gaussian and Laplacian pyramids.
+
+Try various amplification factors for both levels and choose those that lead to good or interesting results.
+You may find that the image noise gets amplified if you scale up the coefficients of the finest sub-band too much;
+try to avoid that. Briefly explain your findings.
+
+> Tried factors from 1 to 20 for both images. Finally settled with [2.5,1.5];
+because this factor gave good amplification of high frequency details like hair and hat.
+And did NOT amplify much noise (amplifying noise would have resulted in grainy texture on the image) 

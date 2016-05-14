@@ -1,0 +1,7 @@
+How do you compute the variance of a single principal component?
+Why can the variance be obtained in that way?
+
+>
+The covariance matrix can be used to compute variance of the single principle component. 
+
+It can be obtained this way because the covariance matrix is a diagonal matrix, and each element in diagonal matrix gives information about the variance from the component from its previous diagonal element. 

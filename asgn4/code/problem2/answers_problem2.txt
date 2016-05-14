@@ -1,0 +1,4 @@
+Why is it better to compute and compare log posteriors rather than using the posterior probabilities directly?
+
+>1) Using log represents number more accurately as the numbers get very small. Since with posteriors we will be dealing with very small numbers and multiplication, the numbers get even smaller. 
+2) Since there are many multiplications involved, using log makes it simple addition. It is not much of an advantage given that many processors today have hardware multipliers. 
